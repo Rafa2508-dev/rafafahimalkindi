@@ -1,0 +1,9 @@
+body { background-color: #40E0D0; margin: 0; font-family: Arial; }
+header img { width: 100%; height: 150px; }
+.container { display: flex; }
+nav { background: orange; width: 180px; padding: 10px; text-align: center; }
+nav a { display: block; margin: 10px 0; text-decoration: none; color: black; font-weight: bold; }
+nav img { width: 100%; margin-bottom: 10px; }
+nav video { width: 100%; margin-top: 10px; }
+main { padding: 20px; flex: 1; }
+footer { background: orange; text-align: center; padding: 5px; }

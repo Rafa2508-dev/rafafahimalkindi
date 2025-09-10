@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Foto Kegiatan</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .foto-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .kolom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    .kolom img {
+      width: 200px;
+      height: 120px;
+      object-fit: cover;
+    }
+    .kolom p {
+      margin: 5px 0 15px 0;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="cover.jpg" alt="Header">
+  </header>
+  <div class="container">
+    <nav>
+      <img src="lapangan.gif" alt="Lapangan">
+      <a href="index.html">Index</a>
+      <a href="fasilitas.html">Fasilitas</a>
+      <a href="fotofoto.html">Foto-foto</a>
+      <a href="kontak.html">Kontak</a>
+      <video controls><source src="marsmadrasah.mp4" type="video/mp4"></video>
+      <div>Mars Madrasah</div>
+    </nav>
+    <main>
+      <h2>Foto-Foto Kegiatan</h2>
+      <div class="foto-container">
+        <div class="kolom">
+          <img src="biologi.png" alt=""><p>Praktik Biologi</p>
+          <img src="komputer.png" alt=""><p>Lab Komputer</p>
+          <img src="basket.png" alt=""><p>Olahraga</p>
+        </div>
+        <div class="kolom">
+          <img src="kimia.png" alt=""><p>Praktik Kimia</p>
+          <img src="ekskul.png" alt=""><p>Ekstrakurikuler</p>
+        </div>
+        <div class="kolom">
+          <img src="bahasa.png" alt=""><p>Lab Bahasa</p>
+          <img src="perpus.png" alt=""><p>Perpustakaan</p>
+          <img src="keputrian.png" alt=""><p>Keputrian</p>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>created by Rafa Fahim Alkindi</footer>
+</body>
+</html>
